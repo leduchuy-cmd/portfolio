@@ -1,7 +1,7 @@
 const Intro = () => {
   return (
-    <>
-      <div className="max-w-5xl mx-auto flex mt-28 justify-between">
+    <div className="max-w-5xl mx-auto">
+      <div className="flex mt-28 justify-between">
         <div className="max-w-lg">
           <h1 className="font-bold text-4xl mb-10">
             Hi, I am John, <br /> Creative Technologist
@@ -24,7 +24,7 @@ const Intro = () => {
           <img src="images/avtar.jpg" alt="" />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

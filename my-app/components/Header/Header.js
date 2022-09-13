@@ -1,7 +1,7 @@
 const Header = () => {
   return (
-    <>
-      <nav className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto">
+      <nav className="">
         <ul className="nav blur-0 text-right mt-3 text-xl font-medium	">
           <li className=" inline-block mx-3">
             <a href="#">Work</a>
@@ -14,7 +14,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-    </>
+    </div>
   );
 };
 

@@ -1,24 +1,23 @@
 import React from "react";
 import { data } from "../../../pages/title";
-import Features from "./Features";
+import BlogItem from "./BlogItem";
 
-const FeatureList = (props) => {
+const BlogList = () => {
   return (
     <div>
-      {data.info.map((item) => {
+      {data.blog.map((item) => {
         return (
-          <Features
+          <BlogItem
             key={item.id}
-            image={item.image}
             title={item.title}
             year={item.year}
             description={item.description}
             subtitle={item.subtitle}
-          ></Features>
+          ></BlogItem>
         );
       })}
     </div>
   );
 };
 
-export default FeatureList;
+export default BlogList;

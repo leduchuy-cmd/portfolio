@@ -2,7 +2,7 @@ const RecentPost = () => {
   return (
     <>
       <div className="bg-post mt-20">
-        <div className=" max-w-5xl mx-auto py-7">
+        <div className="py-7 max-w-5xl mx-auto">
           <div className="flex justify-between">
             <p className="recent text-2xl font-normal mb-7">Recent posts</p>
             <a href="#" className="view font-normal mb-7">
